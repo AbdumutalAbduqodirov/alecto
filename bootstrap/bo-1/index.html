@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- bootstrap - link -->
+<link rel="stylesheet" href="../bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+<!-- bootstrap - link -->
+<!-- o'zimizni kodni keyin yuklash bu bootstrap kodlari ustidan hukumronlik beradi -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Bootstrap - 1</title>
+</head>
+<body>
+<!-- 
+    <section class="container">
+        <h2 class="font-weight ">Lorem ipsum dolor sit amet.</h2>
+<div class="row row-cols-2 bg-danger text-center"> -->
+    <!-- row-cols-2 - row clasi ichidagi elemendlarni ikkitadan joylashtir degani /// bu elemendlarni istagancha joylashtirishga imkon beradi  -->
+    <!-- 100% - ustunda nechtadan bo'lishini belgilaydi col - // bular har doim .row ni ichida bo'lishi sart // col - bu standart har doim bir hil xolda turadi razmer o'zgarsa ham -->
+    <!-- <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2>
+    <h2>lola</h2> -->
+    <!-- <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.1</h2>
+    </div> 
+    <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.2</h2>
+    </div> 
+    <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> 
+    <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <h2>Lorem.3</h2>
+    </div> -->
+<!-- </div>
+ </section> -->
+<!-- **** colors and table -->
+<div class="container">
+    <div class="row">
+        <h3 class="display-1 font-monospace text-center  ">Display</h3>
+         <h3 class="text-danger">danger</h3>
+         <h3 class="text-muted">muted</h3>
+         <h3 class="text-dark">dark</h3>
+         <h3 class="text-info">info</h3>
+         <h3 class="text-light text-bg-dark">light</h3>
+         <h3 class="text-primary">primary</h3>
+         <h3 class="text-secondary">secondary</h3>
+         <h3 class="text-warning">warning</h3>
+    </div>
+<table class="table bg-warning table-responsive">
+    <thead>
+        <tr>
+            <th>Home</th>
+            <th>Name</th>
+            <th>SurName</th>
+            <th>Age</th>
+            <th>Language</th>
+        </tr>
+    </thead>
+    <tbody class="bg-body-secondary">
+        <tr>
+            <td>Bekabad city</td>
+            <td>Abdumutal</td>
+            <td>Abduqodirov</td>
+            <td>25</td>
+            <td>Uzb</td>
+        </tr> 
+        <tr>
+            <td>Mirzabad gord</td>
+            <td>Feruzbek</td>
+            <td>Karimov</td>
+            <td>19</td>
+            <td>Eng</td>
+        </tr>
+         <tr>
+            <td>Boyovut city</td>
+            <td>Hayitali</td>
+            <td>Abduqayumov</td>
+            <td>21</td>
+            <td>Rus</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- image and jumbotron -->
+<div class="container">
+<img src="../Photos/Без названия (2).jfif" class="rounded-circle" alt="" width="500" height="500">
+<img src="../Photos/Moskov.jpg" alt="" width="500" height="500" class="img-thumbnail">
+<img src="../Photos/Без названия.jfif" alt="" width="500" height="500" class="rounded">
+</div>
+<!-- jumbotron - etiborga tortuvchi va biror nimaga undovchi desak ham bo'ladi // mbu container ga o'xshash insonlsr etiborini tortib turuvchi asosiy qisimlar bunga misol bo'la oladi // bu 4.3 versiada hozirgisida yo'q-->
+<div class="jumbotron jumbotron-fluid">
+    <h2>Hello World</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, nesciunt quis ex asperiores, aut deleniti natus totam ullam reiciendis dolorem nam iste laboriosam, tenetur quibusdam rerum? Minima ducimus quaerat ipsam.</p>
+    <button class="btn btn-warning">Sing Up</button>
+</div>
+<!-- alert and button -->
+<div class="container">
+    <button class="btn btn-outline-primary btn-lg">Sing Up</button>
+    <div class="btn-group btn-group-lg">
+        <div class="btn btn-danger">Danger</div>
+        <div class="btn btn-warning">Warning</div>
+        <div class="btn btn-success">Success</div>
+    </div>  
+    <div class="btn-group btn-group-vertical">
+       <div class="btn btn-success">100%</div> 
+       <div class="btn btn-warning">50%</div>
+       <div class="btn btn-danger">25%</div> 
+    </div>
+    <!-- show fade - sekinroq qandaydirshafoflik bilan yo'qoladi,   alert-dismissible - js kodininishga tushurish uchun  -->
+<div class="alert alert-success text-center alert-dismissible show fade" role="alert">
+    <p>Hello Alert <a href="" class="alert-link">Send</a></p>
+    <button class="btn btn-success">Success</button>
+    <button class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <!--  class="btn-close" - x ni o'ng burchakda paydo qilish uchun // data-bs-dismiss="alert" - bu alertni o'chirish uchun // -->
+</div>
+</div>
+
+<!-- **** List and Card**** -->
+<div class="container">
+    <!-- oddiy card  - card ni  3 - ta qisimga bo'lishimiz mumkun header, body , footer-->
+    <div class="row">
+        <div class="col-4">
+         <div class="card">
+    <div class="card-header">
+        <h3>My car header</h3>
+    </div>
+    <div class="card-body">
+        <h2 class="card-title">Hello Card</h2>
+        <p class="card-text">hello card paragrph</p>
+        <button class="btn btn-primary">Submit</button>    
+    </div>
+    <div class="card-footer">
+        <p>Card Footer end
+            <a href="" class="card-link">submidCard</a>
+        </p>
+    </div>
+</div>    
+        </div>
+        <!-- card_photos _ pxelc.com-->
+        <div class="col-4">
+            <div class="card">
+                <div class="card-header">
+                   <h2>May imf</h2>
+                </div>
+                <div class="card-body">
+                    <img src="../Photos/front-view-mediterranean-sea-bay-600w-422304961.webp" alt="" class="card-img-top">
+                    <div class="card-title">Anime Card you Du_vuu</div>
+                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card _ img -->
+        <div class="col-4">
+           <div class="card">
+<img src="../Photos/Без названия (2).jfif" alt="" class="card-img-top">
+<div class="card-body">
+    <h3 class="card-title">Ocus</h3>
+    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, enim.</p>
+</div>
+     </div> 
+        </div>
+     <!-- rasm ustiga yozuv -->
+<div class="col-4">
+    <div class="card text-white text-center">
+        <img src="../Photos/images.jfif" alt="" class="card-img">
+        <div class="card-img-overlay">
+            <h3 class="card-title">Hello card</h3>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero esse, unde voluptas quasi iste quis eos inventore magnam nam dolorum, aut sit cumque perspiciatis consequuntur delectus consequatur nostrum suscipit ea.</p>
+            <button class="btn btn-danger">succser</button>
+        </div>
+        
+    </div>
+</div>
+<!-- card-group --->
+<div class="card-group ">
+    <div class="card">
+        <img src="../Photos/Без названия.jfif" alt="" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">World</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maiores debitis ex asperiores error culpa consequuntur dolorem possimus nobis dicta veritatis assumenda nostrum esse, nulla magni, commodi nihil laborum voluptate!</p>
+            <button class="btn btn-success">Submit</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../Photos/Без названия.jfif" alt="" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">World</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maiores debitis ex asperiores error culpa consequuntur dolorem possimus nobis dicta veritatis assumenda nostrum esse, nulla magni, commodi nihil laborum voluptate!</p>
+            <button class="btn btn-success">Submit</button>
+        </div>
+    </div><div class="card">
+        <img src="../Photos/Без названия.jfif" alt="" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">World</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maiores debitis ex asperiores error culpa consequuntur dolorem possimus nobis dicta veritatis assumenda nostrum esse, nulla magni, commodi nihil laborum voluptate!</p>
+            <button class="btn btn-success">Submit</button>
+        </div>
+    </div>
+</div>
+    </div>
+ <!--  -->
+</div>
+
+<!-- List gruhlari -->
+<!--  -->
+<div class="container">
+    <ul class="list-group list-group-horizontal-md">
+        <li class="list-group-item list-group-item-action list-group-item-success">Home</li>
+        <li class="list-group-item list-group-item-action list-group-item-secondary">Home</li>
+        <li class="list-group-item list-group-item-action list-group-item-dark">Home</li>
+        <li class="list-group-item list-group-item-action list-group-item-primary">Home</li>
+    </ul> 
+       <!-- borderi yo'q bo'ladi faqat pastki chiziqchasi bo'ladi halos -->
+    <ul class="list-group list-group-horizontal-md list-group-flush">
+        <li class="list-group-item">Home</li>
+        <li class="list-group-item">Home</li>
+        <li class="list-group-item">Home</li>
+        <li class="list-group-item">Home</li>
+    </ul>
+</div>
+
+<!-- **** Pagination //  badge // progress bar **** -->
+<div class="container">
+<button type="button" class="btn btn-primary position-relative">
+    Inbox
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      99+
+    </span>
+  </button>
+  <!-- 0000000000 -->
+ 
+  <button type="button" class="btn btn-primary">
+    Notifications <span class="badge text-bg-secondary">4</span>
+  </button>
+
+<!-- progres-bar -->
+<div class="progress">
+    <div class="progress-bar" style="width: 75%;">75%</div>
+</div>
+<!-- 00 -->
+<div class="progress m-1">
+    <div class="progress-bar progress-bar-striped bg-secondary"  style="width: 50%;">50%</div>
+</div>
+<!-- 00 -->
+<div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%">60%</div>
+  </div>
+  <!-- 222 -->
+
+  <div class="progress-stacked">
+    <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+      <div class="progress-bar">15%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+      <div class="progress-bar bg-success">30%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+      <div class="progress-bar bg-info">20%</div>
+    </div>
+  </div>
+
+</div>
+<!-- Pagination -->
+<div class="container">
+    <nav class="">
+        <ul class="pagination">
+    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+    <li class="page-item"><a href="#" class="page-link">1</a></li>
+    <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+</ul>  
+    </nav>
+  
+<!-- disablet - bosib bo'lmaydigan qilib qo'yadi // li  ga active bersak o'wa teg activ bo'lib turadix -->
+    <nav>
+        <ul class="pagination pagination-lg">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+</div>
+
+
+<!-- Dropdown -->
+
+<div class="container">
+    <div class="dropdown ">
+       
+        <button class=" btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">  Dropdown bu</button>
+<ul class="dropdown-menu ">
+<li><a href="#" class="dropdown-item">Home</a></li>
+<li><a href="#" class="dropdown-item">Home</a></li>
+<li><a href="#" class="dropdown-item">Home</a></li>
+<li><a href="#" class="dropdown-item">Home</a></li>
+<li><a href="#" class="dropdown-item">Home</a></li>
+<li><a href="#" class="dropdown-item">Home</a></li>
+<li><a href="#" class="dropdown-item">Home</a></li>
+</ul> vbn
+    </div>
+
+    <!-- 000  
+    dropstart - chapdan chiqadi //  dropend - o'ngdan // .disabled - o'chirilgan havola ustiga bossa o'qimaydi // dropdown-divider - chiziq bilan bo'lib beradi hr ga o'xshab-->
+    <div class="dropdown dropend">
+        <button class="btn btn-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <!--  -->
+          <li class="dropdown-divider "></li><!-- to'g'ri chiziq bilan bo'lib beradi -->
+          <li class="dropdown-header ">Sarlavha uchun</li><!-- ro'yhatga sarlavha qo'yish uchun -->
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item disabled" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <!-- dropup - yuqoridan chiqadi menyu -->
+      <!-- Default dropup button -->
+<div class="btn-group dropup">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropup
+    </button>
+    <ul class="dropdown-menu">
+      <!-- Dropdown menu links -->
+    </ul>
+  </div>
+  
+  <!-- Split dropup button -->
+  <div class="btn-group dropup">
+    <button type="button" class="btn btn-secondary">
+      Split dropup
+    </button>
+    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <!-- Dropdown menu links -->
+    </ul>
+  </div>
+
+
+
+<!-- collapse  - elemendlarni ko'rsatish va yashirish uchun ishlatiladi -->
+<!-- data-bs-target="#collapseWidthExample" bu id="collapseWidthExample"   -  ikkimqisimni bir biriga bog'lash uchun -->
+<p>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+      Toggle width collapse
+    </button>
+  </p>
+  <div style="min-height: 120px;">
+    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+      <div class="card card-body" style="width: 300px;">
+        This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+      </div>
+    </div>
+  </div>
+
+  <!-- nav -  -->
+
+<ul class="nav">
+    <li class="nav-item"> <a href="" class="nav-link">home</a> </li>
+    <li class="nav-item"> <a href="" class="nav-link">aboute</a> </li>
+    <li class="nav-item"> <a href="" class="nav-link">Project</a> </li>
+    <li class="nav-item"> <a href="" class="nav-link">contact</a> </li>
+</ul>
+
+<!--  nav-tab-->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+  </ul>
+<!-- nav-pils -->
+<ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+  </ul>
+  <!-- nav-underline -->
+  <ul class="nav nav-underline">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+  </ul>
+
+<!-- navbar -->
+<nav class="navbar">
+    <ul class="nav">
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+    </ul>
+</nav>
+
+<!-- asosiy -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li> -->
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
+
+<!-- foorm -->
+
+<form>
+  <h1 class="forum">Forum</h1>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<!-- forum uchun : forum , forum-inline -->
+<form class="form mt-5">
+  
+  <label for="ie" class="form-label">Bow</label>
+  <input type="text" class="form-control mb-3" id="ie">
+   <label for="iew" class="form-label">Bowid</label>
+  <input type="text" class="form-control" id="iew">
+</form>
+
+
+<!-- row - bu block elemendlarni inlinne qilib bir safga tizadi -->
+<form class="form">
+  <div class="row">
+    <div class="col">
+      <label for="nam1" class="form-label">Saing:</label>
+      <input type="text" class="form-control" id="nam1">
+     
+    </div>
+    <div class="col">
+      
+      <label for="name" class="form-label">name:</label>
+      <input type="text" class="form-control" id="name">
+
+    </div>  <div class="col">
+      
+      <label for="name" class="form-label">name:</label>
+      <input type="text" class="form-control" id="name">
+
+    </div>  <div class="col">
+      
+      <label for="name" class="form-label">name:</label>
+      <input type="text" class="form-control" id="name">
+
+    </div>  <div class="col">
+      
+      <label for="name" class="form-label">name:</label>
+      <input type="text" class="form-control" id="name">
+
+    </div>  <div class="col">
+      
+      <label for="name" class="form-label">name:</label>
+      <input type="text" class="form-control" id="name">
+
+    </div>
+    
+    </div>
+</form>
+<!--  validation-->
+<form class="row g-3 needs-validation   mt-5 " novalidate>
+
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>ru-1</option>
+      <option>8</option>
+      <option>..84efv.</option>
+      <option>.btrbv..</option>
+      <option>..bvtr.</option>
+    </select>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+<!-- form floating // agar hato deb chiqarmoqchi       bo'lgan inputimizga   .is-invalid      - classini qo'ysak kifoya--->
+<form class="form-floating mt-5 mb-5">
+  <input type="email" class="form-control is-invalid" placeholder="name@example.com" value="test@example.com">
+</form>
+<!-- forumlar ni gruhlash uchun ikki elementni (.input-group) clasiga olsak kifoya -->
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2">@example.com</span>
+</div>
+
+
+
+<div class="input-group mb-3">
+  <span class="input-group-text">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-text">.00</span>
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+  <span class="input-group-text">@</span>
+  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+</div>
+
+<!--  form-check -->
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+  <label class="form-check-label" for="flexCheckIndeterminate">
+    Indeterminate checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+  <label class="form-check-label" for="flexCheckIndeterminate">
+    Indeterminate checkbox
+  </label>
+</div>
+
+<!-- radio -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Default checked radio
+  </label>
+</div>
+<!-- form-switch -->
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+  <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+</div>
+
+
+<!-- select -->
+<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+
+<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+<!--  -->
+
+
+
+
+
+<!-- Modalka************* -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- asosiy qisni modal-contentgacha bo'lgani qolganini ixtiyoriy -->
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- tooltip - qachon foydalanuvchi tugma ustiga kelganda kichik malumot qutisi singari hosil bo'ladi -->
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+  Tooltip on top
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+  Tooltip on right
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+  Tooltip on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+  Tooltip on left
+</button>
+
+
+<!-- popover - toltipga o'xshash-->
+<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+  Popover on top
+</button>
+<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+  Popover on right
+</button>
+<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+  Popover on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+  Popover on left
+</button>
+<!-- Scrollspy - skrolni joylashgan o'rniga ko'ra nav bar o'zgarishi -->
+
+
+<!-- gorizontal -->
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">First heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading2">Second heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading3">Third heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading4">Fourth heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading5">Fifth heading</h4>
+  <p>...</p>
+</div>
+<!-- vertikal -->
+<div class="row">
+  <div class="col-4">
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">Item 1</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+        </nav>
+        <a class="nav-link" href="#item-2">Item 2</a>
+        <a class="nav-link" href="#item-3">Item 3</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+        </nav>
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+      <div id="item-1">
+        <h4>Item 1</h4>
+        <p>...</p>
+      </div>
+      <div id="item-1-1">
+        <h5>Item 1-1</h5>
+        <p>...</p>
+      </div>
+      <div id="item-1-2">
+        <h5>Item 1-2</h5>
+        <p>...</p>
+      </div>
+      <div id="item-2">
+        <h4>Item 2</h4>
+        <p>...</p>
+      </div>
+      <div id="item-3">
+        <h4>Item 3</h4>
+        <p>...</p>
+      </div>
+      <div id="item-3-1">
+        <h5>Item 3-1</h5>
+        <p>...</p>
+      </div>
+      <div id="item-3-2">
+        <h5>Item 3-2</h5>
+        <p>...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ******************Utilites************** -->
+<!-- bakground-colors -->
+
+<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">.bg-primary-subtle</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-success-subtle text-emphasis-success">.bg-success-subtle</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-danger-subtle text-emphasis-danger">.bg-danger-subtle</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">.bg-warning-subtle</div>
+<div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+<div class="p-3 mb-2 bg-info-subtle text-emphasis-info">.bg-info-subtle</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-light-subtle text-emphasis-light">.bg-light-subtle</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">.bg-dark-subtle</div>
+<p class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</p>
+<p class="p-3 mb-2 bg-body-tertiary">.bg-body-tertiary</p>
+
+<div class="p-3 mb-2 bg-body text-body">.bg-body</div>
+<div class="p-3 mb-2 bg-black text-white">.bg-black</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+<div class="p-3 mb-2 bg-transparent text-body">.bg-transparent</div>
+
+<!--  -->
+<!--  border-->
+<span class="border border-primary"></span>
+<span class="border border-primary-subtle"></span>
+<span class="border border-secondary"></span>
+<span class="border border-secondary-subtle"></span>
+<span class="border border-success"></span>
+<span class="border border-success-subtle"></span>
+<span class="border border-danger"></span>
+<span class="border border-danger-subtle"></span>
+<span class="border border-warning"></span>
+<span class="border border-warning-subtle"></span>
+<span class="border border-info"></span>
+<span class="border border-info-subtle"></span>
+<span class="border border-light"></span>
+<span class="border border-light-subtle"></span>
+<span class="border border-dark"></span>
+<span class="border border-dark-subtle"></span>
+<span class="border border-black"></span>
+<span class="border border-white"></span>
+<!-- border-color -->
+<div class="mb-4">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control border-success" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+
+<div class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
+  Dangerous heading
+</div>
+
+<div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+  Changing border color and width
+</div>
+<!-- border-radius -->
+<img src="..." class="rounded-0" alt="...">
+<img src="..." class="rounded-1" alt="...">
+<img src="..." class="rounded-2" alt="...">
+<img src="..." class="rounded-3" alt="...">
+<img src="..." class="rounded-4" alt="...">
+<img src="..." class="rounded-5" alt="...">
+<!--  -->
+<img src="..." class="rounded-bottom-1" alt="...">
+<img src="..." class="rounded-start-2" alt="...">
+<img src="..." class="rounded-end-circle" alt="...">
+<img src="..." class="rounded-start-pill" alt="...">
+<img src="..." class="rounded-5 rounded-top-0" alt="...">
+
+<!-- justify -->
+.justify-content-start
+.justify-content-end
+.justify-content-center
+.justify-content-between
+.justify-content-around
+.justify-content-evenly
+.justify-content-sm-start
+.justify-content-sm-end
+.justify-content-sm-center
+.justify-content-sm-between
+.justify-content-sm-around
+.justify-content-sm-evenly
+.justify-content-md-start
+.justify-content-md-end
+.justify-content-md-center
+.justify-content-md-between
+.justify-content-md-around
+.justify-content-md-evenly
+.justify-content-lg-start
+.justify-content-lg-end
+.justify-content-lg-center
+.justify-content-lg-between
+.justify-content-lg-around
+.justify-content-lg-evenly
+.justify-content-xl-start
+.justify-content-xl-end
+.justify-content-xl-center
+.justify-content-xl-between
+.justify-content-xl-around
+.justify-content-xl-evenly
+.justify-content-xxl-start
+.justify-content-xxl-end
+.justify-content-xxl-center
+.justify-content-xxl-between
+.justify-content-xxl-around
+.justify-content-xxl-evenly
+<!--Responsive variations also exist for flex-direction.  -->
+
+
+.flex-row
+.flex-row-reverse
+.flex-column
+.flex-column-reverse
+.flex-sm-row
+.flex-sm-row-reverse
+.flex-sm-column
+.flex-sm-column-reverse
+.flex-md-row
+.flex-md-row-reverse
+.flex-md-column
+.flex-md-column-reverse
+.flex-lg-row
+.flex-lg-row-reverse
+.flex-lg-column
+.flex-lg-column-reverse
+.flex-xl-row
+.flex-xl-row-reverse
+.flex-xl-column
+.flex-xl-column-reverse
+.flex-xxl-row
+.flex-xxl-row-reverse
+.flex-xxl-column
+.flex-xxl-column-reverse
+
+<!-- display // Responsive variations also exist for flex-direction. -->
+
+
+.flex-row
+.flex-row-reverse
+.flex-column
+.flex-column-reverse
+.flex-sm-row
+.flex-sm-row-reverse
+.flex-sm-column
+.flex-sm-column-reverse
+.flex-md-row
+.flex-md-row-reverse
+.flex-md-column
+.flex-md-column-reverse
+.flex-lg-row
+.flex-lg-row-reverse
+.flex-lg-column
+.flex-lg-column-reverse
+.flex-xl-row
+.flex-xl-row-reverse
+.flex-xl-column
+.flex-xl-column-reverse
+.flex-xxl-row
+.flex-xxl-row-reverse
+.flex-xxl-column
+.flex-xxl-column-reverse
+
+<!-- align-item -->
+Responsive variations also exist for align-items.
+
+.align-items-start
+.align-items-end
+.align-items-center
+.align-items-baseline
+.align-items-stretch
+.align-items-sm-start
+.align-items-sm-end
+.align-items-sm-center
+.align-items-sm-baseline
+.align-items-sm-stretch
+.align-items-md-start
+.align-items-md-end
+.align-items-md-center
+.align-items-md-baseline
+.align-items-md-stretch
+.align-items-lg-start
+.align-items-lg-end
+.align-items-lg-center
+.align-items-lg-baseline
+.align-items-lg-stretch
+.align-items-xl-start
+.align-items-xl-end
+.align-items-xl-center
+.align-items-xl-baseline
+.align-items-xl-stretch
+.align-items-xxl-start
+.align-items-xxl-end
+.align-items-xxl-center
+.align-items-xxl-baseline
+.align-items-xxl-stretch
+<!--Responsive variations also exist for align-self.  -->
+
+
+.align-self-start
+.align-self-end
+.align-self-center
+.align-self-baseline
+.align-self-stretch
+.align-self-sm-start
+.align-self-sm-end
+.align-self-sm-center
+.align-self-sm-baseline
+.align-self-sm-stretch
+.align-self-md-start
+.align-self-md-end
+.align-self-md-center
+.align-self-md-baseline
+.align-self-md-stretch
+.align-self-lg-start
+.align-self-lg-end
+.align-self-lg-center
+.align-self-lg-baseline
+.align-self-lg-stretch
+.align-self-xl-start
+.align-self-xl-end
+.align-self-xl-center
+.align-self-xl-baseline
+.align-self-xl-stretch
+.align-self-xxl-start
+.align-self-xxl-end
+.align-self-xxl-center
+.align-self-xxl-baseline
+.align-self-xxl-stretch
+
+<!--Responsive variations also exist for flex-wrap.  -->
+
+
+.flex-nowrap
+.flex-wrap
+.flex-wrap-reverse
+.flex-sm-nowrap
+.flex-sm-wrap
+.flex-sm-wrap-reverse
+.flex-md-nowrap
+.flex-md-wrap
+.flex-md-wrap-reverse
+.flex-lg-nowrap
+.flex-lg-wrap
+.flex-lg-wrap-reverse
+.flex-xl-nowrap
+.flex-xl-wrap
+.flex-xl-wrap-reverse
+.flex-xxl-nowrap
+.flex-xxl-wrap
+.flex-xxl-wrap-reverse
+
+
+<!-- opasity -->
+<p><a class="link-opacity-10-hover" href="#">Link hover opacity 10</a></p>
+<p><a class="link-opacity-25-hover" href="#">Link hover opacity 25</a></p>
+<p><a class="link-opacity-50-hover" href="#">Link hover opacity 50</a></p>
+<p><a class="link-opacity-75-hover" href="#">Link hover opacity 75</a></p>
+<p><a class="link-opacity-100-hover" href="#">Link hover opacity 100</a></p>
+
+<!-- underline color -->
+
+<p><a href="#" class="link-underline-primary">Primary underline</a></p>
+<p><a href="#" class="link-underline-secondary">Secondary underline</a></p>
+<p><a href="#" class="link-underline-success">Success underline</a></p>
+<p><a href="#" class="link-underline-danger">Danger underline</a></p>
+<p><a href="#" class="link-underline-warning">Warning underline</a></p>
+<p><a href="#" class="link-underline-info">Info underline</a></p>
+<p><a href="#" class="link-underline-light">Light underline</a></p>
+<p><a href="#" class="link-underline-dark">Dark underline</a></p>
+<!--  opacitiy-->
+<p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Underline opacity 0</a></p>
+<p><a class="link-offset-2 link-underline link-underline-opacity-10" href="#">Underline opacity 10</a></p>
+<p><a class="link-offset-2 link-underline link-underline-opacity-25" href="#">Underline opacity 25</a></p>
+<p><a class="link-offset-2 link-underline link-underline-opacity-50" href="#">Underline opacity 50</a></p>
+<p><a class="link-offset-2 link-underline link-underline-opacity-75" href="#">Underline opacity 75</a></p>
+<p><a class="link-offset-2 link-underline link-underline-opacity-100" href="#">Underline opacity 100</a></p>
+
+<!-- colors link -->
+<p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Primary link</a></p>
+<p><a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Secondary link</a></p>
+<p><a href="#" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Success link</a></p>
+<p><a href="#" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Danger link</a></p>
+<p><a href="#" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Warning link</a></p>
+<p><a href="#" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Info link</a></p>
+<p><a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Light link</a></p>
+<p><a href="#" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Dark link</a></p>
+<p><a href="#" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Emphasis link</a></p>
+
+
+<!-- owerflow -->
+<div class="overflow-auto">...</div>
+<div class="overflow-hidden">...</div>
+<div class="overflow-visible">...</div>
+<div class="overflow-scroll">...</div>
+<!--  -->
+<div class="overflow-x-auto">...</div>
+<div class="overflow-x-hidden">...</div>
+<div class="overflow-x-visible">...</div>
+<div class="overflow-x-scroll">...</div>
+<!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!-- bootstrap - link_js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+<!-- bootstrap - link_js -->
+<script src="script.js"></script>
+</body>
+</html>
